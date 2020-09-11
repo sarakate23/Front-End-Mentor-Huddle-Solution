@@ -1,0 +1,105 @@
+html {
+  background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 50px 50px auto 50px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 500;
+}
+
+p {
+  color: white;
+}
+
+.header {
+  margin-bottom: 80px;
+}
+
+.illustration-content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.illustration {
+  display: block;
+  width: 100%;
+}
+
+.body-text {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.button1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 3px 3px 6px #666666;
+  -moz-box-shadow: 3px 3px 6px #666666;
+  box-shadow: 3px 3px 6px #666666;
+  color: hsl(257, 40%, 49%);
+  font-size: 20px;
+  background: #ffffff;
+  padding: 13px 45px 13px 45px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-group-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.icon-group {
+  float: right;
+}
+
+.icon-btn1 {
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid white;
+  padding: 5px 7px;
+  color: white;
+}
+
+.icon-btn2 {
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+}
+
+.icon-btn3 {
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+}
+
+@media only screen and (min-width: 900px) {
+  .illustration {
+    float: left;
+    width: 60%;
+  }
+
+  .body-text {
+    margin-left: 60%;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
